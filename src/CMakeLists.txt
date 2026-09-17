@@ -19,7 +19,7 @@
 ## compilation/linkage settings
 
 configure_file(VersionInfo.h.in
-  ${CMAKE_BINARY_DIR}/VersionInfo.h
+  ${CMAKE_CURRENT_BINARY_DIR}/VersionInfo.h
   @ONLY
 )
 
